@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: #d3c4fe;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Lato", sans-serif;
+
+}
+.container {
+    display: flex;
+
+    gap: 100px;
+    width: 76.5%;
+    max-width: 1200px;
+}
+
+.container-item1 {
+   
+    background-color: #26235c;
+    height: 600px;
+    width: 39%;
+    border-bottom: 15px solid yellow;
+    border-radius: 38px;
+    padding: 4px;
+
+
+ 
+}
+
+.container-item1 .image1{
+ 
+    padding: 4px;
+    margin-left: 10px;
+    margin-top: 10px;
+    
+}
+.container-item1 .image1 .first {
+
+    border-radius: 30px;
+}
+.container-item1 .image2{
+ 
+    padding: 4px;
+
+}
+.container-item1 .image2 .second {
+    border-radius: 100px;
+    margin-left: 130px;
+    border: solid #26235c;
+    border-right: 3px solid yellow;
+    
+}
+.container-item1 .name {
+
+    color: white;
+    font-size: 25px;
+   
+    margin-left: 125px;
+    font-weight: 600;
+}
+
+.container-item1 .title {
+    color: #d3c4fe;;
+  
+    margin-left: 158px;
+    font-size: 17px;
+}
+.container-item1 .kiddo {
+
+    padding-inline: 40px;
+    font-size: 16px;
+    color: white;
+    margin-left: 20px;
+
+}
+.container-item1 .dev {
+    font-size: 16px;
+    padding-inline: 40px;
+
+    margin-left: 30px;
+    color: white;
+}
+.container-item1 .des {
+    font-size: 16px;
+  
+    padding-inline: 160px;
+    color: white;
+    margin-left: 6px;
+}
+.container-item1 .email {
+
+  
+    border-radius: 6px;
+    background-color: #d3c4fe;
+    width: 220px;
+    padding: 5px;
+    margin-left: 110px;
+    padding-block: 6px;
+    
+}
+.container-item1 .email .mail {
+    color: white;
+    margin-left: 17px;
+    font-size: 15px;
+    
+}
+.container-item1 .icons {
+    color: #d3c4fe;
+
+    font-size: 30px;
+    word-spacing: 29px;
+    margin-left: 50px;
+}
+
+
+
+
+
+
+
+
+.container-item2 {
+   
+    background-color: white;
+    height: 600px;
+    width: 39%;
+    border-bottom: 15px solid  #26235c;
+    border-radius: 35px;
+    padding: 4px;
+}
+
+
+
+
+
+.container-item2 .image1{
+
+    padding: 4px;
+    margin-left: 10px;
+    margin-top: 10px;
+    
+}
+.container-item2 .image1 .first {
+
+    border-radius: 30px;
+}
+.container-item2 .image2{
+    
+    padding: 4px;
+
+}
+.container-item2 .image2 .second {
+    border-radius: 100px;
+    margin-left: 130px;
+    border:solid #26235c;
+    border-right: 3px solid yellow;
+}
+.container-item2 .name {
+
+    color: black;
+    font-size: 25px;
+
+    margin-left: 125px;
+    font-weight: 600;
+}
+
+.container-item2 .title {
+    color: #26235c;
+    margin-left: 158px;
+    font-size: 17px;
+}
+.container-item2 .kiddo {
+ 
+    padding-inline: 40px;
+    font-size: 16px;
+    color: black;
+    margin-left: 20px;
+}
+.container-item2 .dev {
+    font-size: 16px;
+    padding-inline: 40px;
+
+    margin-left: 30px;
+    color: black;
+}
+.container-item2 .des {
+    font-size: 16px;
+  
+    padding-inline: 160px;
+    color: black;
+    margin-left: 6px;
+}
+.container-item2 .email {
+
+
+    border-radius: 8px;
+    background-color: #26235c;
+    width: 220px;
+    padding: 5px;
+    margin-left: 110px;
+    padding-block: 6px;
+    
+}
+.container-item2 .email .mail {
+    color: white;
+    margin-left: 17px;
+    font-size: 15px;
+    
+}
+.container-item2 .icons {
+    color: #26235c;
+
+    font-size: 30px;
+    word-spacing: 29px;
+    margin-left: 50px;
+}
+
+
+
+    
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
