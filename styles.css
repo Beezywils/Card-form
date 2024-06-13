@@ -62,43 +62,30 @@ body {
     border-right: 3px solid yellow;
     
 }
-.container-item1 .name {
+.form>h1 {
 
     color: white;
     font-size: 25px;
    
-    margin-left: 125px;
+   text-align: center;
     font-weight: 600;
 }
 
-.container-item1 .title {
+.form>h4{
     color: #d3c4fe;;
   
-    margin-left: 158px;
+    text-align: center;
     font-size: 17px;
 }
-.container-item1 .kiddo {
+.form>p {
 
     padding-inline: 40px;
     font-size: 16px;
     color: white;
-    margin-left: 20px;
+    text-align: center;
 
 }
-.container-item1 .dev {
-    font-size: 16px;
-    padding-inline: 40px;
 
-    margin-left: 30px;
-    color: white;
-}
-.container-item1 .des {
-    font-size: 16px;
-  
-    padding-inline: 160px;
-    color: white;
-    margin-left: 6px;
-}
 .container-item1 .email {
 
   
@@ -106,7 +93,7 @@ body {
     background-color: #d3c4fe;
     width: 220px;
     padding: 5px;
-    margin-left: 110px;
+    margin-left: 115px;
     padding-block: 6px;
     
 }
@@ -114,6 +101,7 @@ body {
     color: white;
     margin-left: 17px;
     font-size: 15px;
+    text-align: center;
     
 }
 .container-item1 .icons {
@@ -167,41 +155,28 @@ body {
     border:solid #26235c;
     border-right: 3px solid yellow;
 }
-.container-item2 .name {
+.form2>h1 {
 
     color: black;
     font-size: 25px;
 
-    margin-left: 125px;
+    text-align: center;
     font-weight: 600;
 }
 
-.container-item2 .title {
+.form2>h4 {
     color: #26235c;
-    margin-left: 158px;
+   text-align: center;
     font-size: 17px;
 }
-.container-item2 .kiddo {
+.form2>p {
  
     padding-inline: 40px;
     font-size: 16px;
     color: black;
-    margin-left: 20px;
+   text-align: center;
 }
-.container-item2 .dev {
-    font-size: 16px;
-    padding-inline: 40px;
 
-    margin-left: 30px;
-    color: black;
-}
-.container-item2 .des {
-    font-size: 16px;
-  
-    padding-inline: 160px;
-    color: black;
-    margin-left: 6px;
-}
 .container-item2 .email {
 
 
@@ -209,7 +184,7 @@ body {
     background-color: #26235c;
     width: 220px;
     padding: 5px;
-    margin-left: 110px;
+    margin-left: 115px;
     padding-block: 6px;
     
 }
@@ -217,6 +192,7 @@ body {
     color: white;
     margin-left: 17px;
     font-size: 15px;
+    text-align: center;
     
 }
 .container-item2 .icons {
@@ -229,6 +205,164 @@ body {
 
 
 
+
+@media (max-width: 600px) {
+    .container {
+        display: grid;
+        max-width: 1000px;
+      
+        margin-top: 45rem;
+        width: 100%;
+        gap: 5rem;
+    }
+    .container-item1{
+        width: 100%;
+     
+    }
+    .container-item1 .image2 {
+        width: 90%;
+      
+    }
+    .container-item1 .image2 .second {
+       
+        margin-left: 100px;
+        border: solid #26235c;
+        border-right: 3px solid yellow;
+        
+    }
+  
+    .form>h1 {
+
+        color: white;
+        font-size: 25px;
+       
+       text-align: center;
+        font-weight: 500;
+    }
+    .form>h4{
+        color: #d3c4fe;
+      
+        text-align: center;
+        font-size: 15px;
+    }
+    .form>p{
+        padding-inline: 40px;
+        font-size: 13.3px;
+        
+       text-align: center;
+    }
+    .container-item1 .email {
+
+  
+        border-radius: 6px;
+        background-color: #d3c4fe;
+        width: 200px;
+        padding: 5px;
+        margin-left: 90px;
+        padding-block: 6px;
+        
+    }
+    .container-item1 .email .mail {
+        color: white;
+        margin-left: 15px;
+        font-size: 14px;
+        text-align: center;
+        
+    }
+    .container-item1 .icons {
+        color: #d3c4fe;
+        margin-left: 40px;
+    
+        font-size: 25px;
+        word-spacing: 25px;
+       
+    }
+
+
+
+
+
+
+
+
+
+
+    .container-item2{
+        width: 100%;
+        margin-bottom: 20px;
+     
+    }
+    .container-item2 .image2 {
+        width: 90%;
+      
+    }
+    .container-item2 .image2 .second {
+       
+        margin-left: 100px;
+        border: solid #26235c;
+        border-right: 3px solid yellow;
+        
+    }
+  
+    .form2>h1 {
+
+        color: black;
+        font-size: 25px;
+       
+       text-align: center;
+        font-weight: 500;
+    }
+    .form2>h4{
+        color:  #26235c;
+      
+        text-align: center;
+        font-size: 15px;
+    }
+    .form2>p{
+        padding-inline: 40px;
+        font-size: 13.3px;
+        color: black;
+        
+       text-align: center;
+    }
+    .container-item2 .email {
+
+  
+        border-radius: 6px;
+        background-color: #26235c;
+        width: 200px;
+        padding: 5px;
+        margin-left: 90px;
+        padding-block: 6px;
+        
+    }
+    .container-item2 .email .mail {
+        color: white;
+        margin-left: 15px;
+        font-size: 14px;
+        text-align: center;
+        
+    }
+    .container-item2 .icons {
+        color: #26235c;
+        margin-left: 40px;
+    
+        font-size: 25px;
+        word-spacing: 25px;
+       
+    }
+
+
+
+
+
+
+
+
+
+
+
+}
     
 
 
